@@ -1,243 +1,242 @@
-Item ID,Item, Supply quantity, Units, Date
-200,napkin,90,batches,10/1/2022
-201,cups,135,batches,10/1/2022
-202,cup lid,135,batches,10/1/2022
-203,Chic-Fil-A Sauce,850,saucer,10/1/2022
-204,Polynesian Sauce,950,saucer,10/1/2022
-205,Chicken,640,pounds,10/1/2022
-206,Burger buns,1000,buns,10/1/2022
-207,Fries,900,pounds,10/1/2022
-208,Lettuce,95,pounds,10/1/2022
-209,Browie,185,pounds,10/1/2022
-210,Batter,13,pounds,10/1/2022
-200,napkin,80,batches,10/2/2022
-201,cups,120,batches,10/2/2022
-202,cup lid,120,batches,10/2/2022
-203,Chic-Fil-A Sauce,700,saucer,10/2/2022
-204,Polynesian Sauce,900,saucer,10/2/2022
-205,Chicken,580,pounds,10/2/2022
-206,Burger buns,900,buns,10/2/2022
-207,Fries,800,pounds,10/2/2022
-208,Lettuce,90,pounds,10/2/2022
-209,Browie,170,pounds,10/2/2022
-210,Batter,11,pounds,10/2/2022
-200,napkin,70,batches,10/3/2022
-201,cups,105,batches,10/3/2022
-202,cup lid,105,batches,10/3/2022
-203,Chic-Fil-A Sauce,550,saucer,10/3/2022
-204,Polynesian Sauce,850,saucer,10/3/2022
-205,Chicken,520,pounds,10/3/2022
-206,Burger buns,800,buns,10/3/2022
-207,Fries,700,pounds,10/3/2022
-208,Lettuce,85,pounds,10/3/2022
-209,Browie,155,pounds,10/3/2022
-210,Batter,9,pounds,10/3/2022
-200,napkin,60,batches,10/4/2022
-201,cups,90,batches,10/4/2022
-202,cup lid,90,batches,10/4/2022
-203,Chic-Fil-A Sauce,400,saucer,10/4/2022
-204,Polynesian Sauce,800,saucer,10/4/2022
-205,Chicken,460,pounds,10/4/2022
-206,Burger buns,700,buns,10/4/2022
-207,Fries,600,pounds,10/4/2022
-208,Lettuce,80,pounds,10/4/2022
-209,Browie,140,pounds,10/4/2022
-210,Batter,7,pounds,10/4/2022
-200,napkin,50,batches,10/5/2022
-201,cups,75,batches,10/5/2022
-202,cup lid,75,batches,10/5/2022
-203,Chic-Fil-A Sauce,250,saucer,10/5/2022
-204,Polynesian Sauce,750,saucer,10/5/2022
-205,Chicken,400,pounds,10/5/2022
-206,Burger buns,600,buns,10/5/2022
-207,Fries,500,pounds,10/5/2022
-208,Lettuce,75,pounds,10/5/2022
-209,Browie,125,pounds,10/5/2022
-210,Batter,5,pounds,10/5/2022
-200,napkin,40,batches,10/6/2022
-201,cups,60,batches,10/6/2022
-202,cup lid,60,batches,10/6/2022
-203,Chic-Fil-A Sauce,1100,saucer,10/6/2022
-204,Polynesian Sauce,700,saucer,10/6/2022
-205,Chicken,340,pounds,10/6/2022
-206,Burger buns,500,buns,10/6/2022
-207,Fries,400,pounds,10/6/2022
-208,Lettuce,70,pounds,10/6/2022
-209,Browie,110,pounds,10/6/2022
-210,Batter,3,pounds,10/6/2022
-200,napkin,30,batches,10/7/2022
-201,cups,45,batches,10/7/2022
-202,cup lid,45,batches,10/7/2022
-203,Chic-Fil-A Sauce,950,saucer,10/7/2022
-204,Polynesian Sauce,650,saucer,10/7/2022
-205,Chicken,280,pounds,10/7/2022
-206,Burger buns,400,buns,10/7/2022
-207,Fries,300,pounds,10/7/2022
-208,Lettuce,65,pounds,10/7/2022
-209,Browie,95,pounds,10/7/2022
-210,Batter,16,pounds,10/7/2022
-200,napkin,100,batches,10/8/2022
-201,cups,155,batches,10/8/2022
-202,cup lid,155,batches,10/8/2022
-203,Chic-Fil-A Sauce,650,saucer,10/8/2022
-204,Polynesian Sauce,500,saucer,10/8/2022
-205,Chicken,170,pounds,10/8/2022
-206,Burger buns,200,buns,10/8/2022
-207,Fries,60,pounds,10/8/2022
-208,Lettuce,50,pounds,10/8/2022
-209,Browie,50,pounds,10/8/2022
-210,Batter,11,pounds,10/8/2022
-200,napkin,90,batches,10/9/2022
-201,cups,140,batches,10/9/2022
-202,cup lid,140,batches,10/9/2022
-203,Chic-Fil-A Sauce,500,saucer,10/9/2022
-204,Polynesian Sauce,450,saucer,10/9/2022
-205,Chicken,110,pounds,10/9/2022
-206,Burger buns,100,buns,10/9/2022
-207,Fries,960,pounds,10/9/2022
-208,Lettuce,45,pounds,10/9/2022
-209,Browie,35,pounds,10/9/2022
-210,Batter,9,pounds,10/9/2022
-200,napkin,80,batches,10/10/2022
-201,cups,125,batches,10/10/2022
-202,cup lid,125,batches,10/10/2022
-203,Chic-Fil-A Sauce,350,saucer,10/10/2022
-204,Polynesian Sauce,400,saucer,10/10/2022
-205,Chicken,50,pounds,10/10/2022
-206,Burger buns,1100,buns,10/10/2022
-207,Fries,860,pounds,10/10/2022
-208,Lettuce,40,pounds,10/10/2022
-209,Browie,20,pounds,10/10/2022
-210,Batter,7,pounds,10/10/2022
-200,napkin,70,batches,10/11/2022
-201,cups,110,batches,10/11/2022
-202,cup lid,110,batches,10/11/2022
-203,Chic-Fil-A Sauce,200,saucer,10/11/2022
-204,Polynesian Sauce,350,saucer,10/11/2022
-205,Chicken,690,pounds,10/11/2022
-206,Burger buns,1000,buns,10/11/2022
-207,Fries,760,pounds,10/11/2022
-208,Lettuce,35,pounds,10/11/2022
-209,Browie,205,pounds,10/11/2022
-210,Batter,5,pounds,10/11/2022
-200,napkin,60,batches,10/12/2022
-201,cups,95,batches,10/12/2022
-202,cup lid,95,batches,10/12/2022
-203,Chic-Fil-A Sauce,1050,saucer,10/12/2022
-204,Polynesian Sauce,300,saucer,10/12/2022
-205,Chicken,630,pounds,10/12/2022
-206,Burger buns,900,buns,10/12/2022
-207,Fries,660,pounds,10/12/2022
-208,Lettuce,30,pounds,10/12/2022
-209,Browie,190,pounds,10/12/2022
-210,Batter,3,pounds,10/12/2022
-200,napkin,50,batches,10/13/2022
-201,cups,80,batches,10/13/2022
-202,cup lid,80,batches,10/13/2022
-203,Chic-Fil-A Sauce,900,saucer,10/13/2022
-204,Polynesian Sauce,250,saucer,10/13/2022
-205,Chicken,570,pounds,10/13/2022
-206,Burger buns,800,buns,10/13/2022
-207,Fries,560,pounds,10/13/2022
-208,Lettuce,25,pounds,10/13/2022
-209,Browie,175,pounds,10/13/2022
-210,Batter,16,pounds,10/13/2022
-200,napkin,40,batches,10/14/2022
-201,cups,65,batches,10/14/2022
-202,cup lid,65,batches,10/14/2022
-203,Chic-Fil-A Sauce,750,saucer,10/14/2022
-204,Polynesian Sauce,200,saucer,10/14/2022
-205,Chicken,510,pounds,10/14/2022
-206,Burger buns,700,buns,10/14/2022
-207,Fries,460,pounds,10/14/2022
-208,Lettuce,20,pounds,10/14/2022
-209,Browie,160,pounds,10/14/2022
-210,Batter,14,pounds,10/14/2022
-200,napkin,10,batches,10/15/2022
-201,cups,25,batches,10/15/2022
-202,cup lid,25,batches,10/15/2022
-203,Chic-Fil-A Sauce,450,saucer,10/15/2022
-204,Polynesian Sauce,1050,saucer,10/15/2022
-205,Chicken,400,pounds,10/15/2022
-206,Burger buns,500,buns,10/15/2022
-207,Fries,220,pounds,10/15/2022
-208,Lettuce,5,pounds,10/15/2022
-209,Browie,115,pounds,10/15/2022
-210,Batter,9,pounds,10/15/2022
-200,napkin,100,batches,10/16/2022
-201,cups,160,batches,10/16/2022
-202,cup lid,160,batches,10/16/2022
-203,Chic-Fil-A Sauce,300,saucer,10/16/2022
-204,Polynesian Sauce,1000,saucer,10/16/2022
-205,Chicken,340,pounds,10/16/2022
-206,Burger buns,400,buns,10/16/2022
-207,Fries,120,pounds,10/16/2022
-208,Lettuce,100,pounds,10/16/2022
-209,Browie,100,pounds,10/16/2022
-210,Batter,7,pounds,10/16/2022
-200,napkin,90,batches,10/17/2022
-201,cups,145,batches,10/17/2022
-202,cup lid,145,batches,10/17/2022
-203,Chic-Fil-A Sauce,150,saucer,10/17/2022
-204,Polynesian Sauce,950,saucer,10/17/2022
-205,Chicken,280,pounds,10/17/2022
-206,Burger buns,300,buns,10/17/2022
-207,Fries,1020,pounds,10/17/2022
-208,Lettuce,95,pounds,10/17/2022
-209,Browie,85,pounds,10/17/2022
-210,Batter,5,pounds,10/17/2022
-200,napkin,80,batches,10/18/2022
-201,cups,130,batches,10/18/2022
-202,cup lid,130,batches,10/18/2022
-203,Chic-Fil-A Sauce,1000,saucer,10/18/2022
-204,Polynesian Sauce,900,saucer,10/18/2022
-205,Chicken,220,pounds,10/18/2022
-206,Burger buns,200,buns,10/18/2022
-207,Fries,920,pounds,10/18/2022
-208,Lettuce,90,pounds,10/18/2022
-209,Browie,70,pounds,10/18/2022
-210,Batter,3,pounds,10/18/2022
-200,napkin,70,batches,10/19/2022
-201,cups,115,batches,10/19/2022
-202,cup lid,115,batches,10/19/2022
-203,Chic-Fil-A Sauce,850,saucer,10/19/2022
-204,Polynesian Sauce,850,saucer,10/19/2022
-205,Chicken,160,pounds,10/19/2022
-206,Burger buns,100,buns,10/19/2022
-207,Fries,820,pounds,10/19/2022
-208,Lettuce,85,pounds,10/19/2022
-209,Browie,55,pounds,10/19/2022
-210,Batter,16,pounds,10/19/2022
-200,napkin,60,batches,10/20/2022
-201,cups,100,batches,10/20/2022
-202,cup lid,100,batches,10/20/2022
-203,Chic-Fil-A Sauce,700,saucer,10/20/2022
-204,Polynesian Sauce,800,saucer,10/20/2022
-205,Chicken,100,pounds,10/20/2022
-206,Burger buns,1100,buns,10/20/2022
-207,Fries,720,pounds,10/20/2022
-208,Lettuce,80,pounds,10/20/2022
-209,Browie,40,pounds,10/20/2022
-210,Batter,14,pounds,10/20/2022
-200,napkin,50,batches,10/21/2022
-201,cups,85,batches,10/21/2022
-202,cup lid,85,batches,10/21/2022
-203,Chic-Fil-A Sauce,550,saucer,10/21/2022
-204,Polynesian Sauce,750,saucer,10/21/2022
-205,Chicken,40,pounds,10/21/2022
-206,Burger buns,1000,buns,10/21/2022
-207,Fries,620,pounds,10/21/2022
-208,Lettuce,75,pounds,10/21/2022
-209,Browie,25,pounds,10/21/2022
-210,Batter,12,pounds,10/21/2022
-200,napkin,40,batches,10/22/2022
-201,cups,70,batches,10/22/2022
-202,cup lid,70,batches,10/22/2022
-203,Chic-Fil-A Sauce,400,saucer,10/22/2022
-204,Polynesian Sauce,700,saucer,10/22/2022
-205,Chicken,680,pounds,10/22/2022
-206,Burger buns,900,buns,10/22/2022
-207,Fries,520,pounds,10/22/2022
-208,Lettuce,70,pounds,10/22/2022
-209,Browie,10,pounds,10/22/2022
-210,Batter,10,pounds,10/22/2022
+200,napkin,90,batches,10-1-2022
+201,cups,135,batches,10-1-2022
+202,cup lid,135,batches,10-1-2022
+203,Chic-Fil-A Sauce,850,saucer,10-1-2022
+204,Polynesian Sauce,950,saucer,10-1-2022
+205,Chicken,640,pounds,10-1-2022
+206,Burger buns,1000,buns,10-1-2022
+207,Fries,900,pounds,10-1-2022
+208,Lettuce,95,pounds,10-1-2022
+209,Browie,185,pounds,10-1-2022
+210,Batter,13,pounds,10-1-2022
+200,napkin,80,batches,10-2-2022
+201,cups,120,batches,10-2-2022
+202,cup lid,120,batches,10-2-2022
+203,Chic-Fil-A Sauce,700,saucer,10-2-2022
+204,Polynesian Sauce,900,saucer,10-2-2022
+205,Chicken,580,pounds,10-2-2022
+206,Burger buns,900,buns,10-2-2022
+207,Fries,800,pounds,10-2-2022
+208,Lettuce,90,pounds,10-2-2022
+209,Browie,170,pounds,10-2-2022
+210,Batter,11,pounds,10-2-2022
+200,napkin,70,batches,10-3-2022
+201,cups,105,batches,10-3-2022
+202,cup lid,105,batches,10-3-2022
+203,Chic-Fil-A Sauce,550,saucer,10-3-2022
+204,Polynesian Sauce,850,saucer,10-3-2022
+205,Chicken,520,pounds,10-3-2022
+206,Burger buns,800,buns,10-3-2022
+207,Fries,700,pounds,10-3-2022
+208,Lettuce,85,pounds,10-3-2022
+209,Browie,155,pounds,10-3-2022
+210,Batter,9,pounds,10-3-2022
+200,napkin,60,batches,10-4-2022
+201,cups,90,batches,10-4-2022
+202,cup lid,90,batches,10-4-2022
+203,Chic-Fil-A Sauce,400,saucer,10-4-2022
+204,Polynesian Sauce,800,saucer,10-4-2022
+205,Chicken,460,pounds,10-4-2022
+206,Burger buns,700,buns,10-4-2022
+207,Fries,600,pounds,10-4-2022
+208,Lettuce,80,pounds,10-4-2022
+209,Browie,140,pounds,10-4-2022
+210,Batter,7,pounds,10-4-2022
+200,napkin,50,batches,10-5-2022
+201,cups,75,batches,10-5-2022
+202,cup lid,75,batches,10-5-2022
+203,Chic-Fil-A Sauce,250,saucer,10-5-2022
+204,Polynesian Sauce,750,saucer,10-5-2022
+205,Chicken,400,pounds,10-5-2022
+206,Burger buns,600,buns,10-5-2022
+207,Fries,500,pounds,10-5-2022
+208,Lettuce,75,pounds,10-5-2022
+209,Browie,125,pounds,10-5-2022
+210,Batter,5,pounds,10-5-2022
+200,napkin,40,batches,10-6-2022
+201,cups,60,batches,10-6-2022
+202,cup lid,60,batches,10-6-2022
+203,Chic-Fil-A Sauce,1100,saucer,10-6-2022
+204,Polynesian Sauce,700,saucer,10-6-2022
+205,Chicken,340,pounds,10-6-2022
+206,Burger buns,500,buns,10-6-2022
+207,Fries,400,pounds,10-6-2022
+208,Lettuce,70,pounds,10-6-2022
+209,Browie,110,pounds,10-6-2022
+210,Batter,3,pounds,10-6-2022
+200,napkin,30,batches,10-7-2022
+201,cups,45,batches,10-7-2022
+202,cup lid,45,batches,10-7-2022
+203,Chic-Fil-A Sauce,950,saucer,10-7-2022
+204,Polynesian Sauce,650,saucer,10-7-2022
+205,Chicken,280,pounds,10-7-2022
+206,Burger buns,400,buns,10-7-2022
+207,Fries,300,pounds,10-7-2022
+208,Lettuce,65,pounds,10-7-2022
+209,Browie,95,pounds,10-7-2022
+210,Batter,16,pounds,10-7-2022
+200,napkin,100,batches,10-8-2022
+201,cups,155,batches,10-8-2022
+202,cup lid,155,batches,10-8-2022
+203,Chic-Fil-A Sauce,650,saucer,10-8-2022
+204,Polynesian Sauce,500,saucer,10-8-2022
+205,Chicken,170,pounds,10-8-2022
+206,Burger buns,200,buns,10-8-2022
+207,Fries,60,pounds,10-8-2022
+208,Lettuce,50,pounds,10-8-2022
+209,Browie,50,pounds,10-8-2022
+210,Batter,11,pounds,10-8-2022
+200,napkin,90,batches,10-9-2022
+201,cups,140,batches,10-9-2022
+202,cup lid,140,batches,10-9-2022
+203,Chic-Fil-A Sauce,500,saucer,10-9-2022
+204,Polynesian Sauce,450,saucer,10-9-2022
+205,Chicken,110,pounds,10-9-2022
+206,Burger buns,100,buns,10-9-2022
+207,Fries,960,pounds,10-9-2022
+208,Lettuce,45,pounds,10-9-2022
+209,Browie,35,pounds,10-9-2022
+210,Batter,9,pounds,10-9-2022
+200,napkin,80,batches,10-10-2022
+201,cups,125,batches,10-10-2022
+202,cup lid,125,batches,10-10-2022
+203,Chic-Fil-A Sauce,350,saucer,10-10-2022
+204,Polynesian Sauce,400,saucer,10-10-2022
+205,Chicken,50,pounds,10-10-2022
+206,Burger buns,1100,buns,10-10-2022
+207,Fries,860,pounds,10-10-2022
+208,Lettuce,40,pounds,10-10-2022
+209,Browie,20,pounds,10-10-2022
+210,Batter,7,pounds,10-10-2022
+200,napkin,70,batches,10-11-2022
+201,cups,110,batches,10-11-2022
+202,cup lid,110,batches,10-11-2022
+203,Chic-Fil-A Sauce,200,saucer,10-11-2022
+204,Polynesian Sauce,350,saucer,10-11-2022
+205,Chicken,690,pounds,10-11-2022
+206,Burger buns,1000,buns,10-11-2022
+207,Fries,760,pounds,10-11-2022
+208,Lettuce,35,pounds,10-11-2022
+209,Browie,205,pounds,10-11-2022
+210,Batter,5,pounds,10-11-2022
+200,napkin,60,batches,10-12-2022
+201,cups,95,batches,10-12-2022
+202,cup lid,95,batches,10-12-2022
+203,Chic-Fil-A Sauce,1050,saucer,10-12-2022
+204,Polynesian Sauce,300,saucer,10-12-2022
+205,Chicken,630,pounds,10-12-2022
+206,Burger buns,900,buns,10-12-2022
+207,Fries,660,pounds,10-12-2022
+208,Lettuce,30,pounds,10-12-2022
+209,Browie,190,pounds,10-12-2022
+210,Batter,3,pounds,10-12-2022
+200,napkin,50,batches,10-13-2022
+201,cups,80,batches,10-13-2022
+202,cup lid,80,batches,10-13-2022
+203,Chic-Fil-A Sauce,900,saucer,10-13-2022
+204,Polynesian Sauce,250,saucer,10-13-2022
+205,Chicken,570,pounds,10-13-2022
+206,Burger buns,800,buns,10-13-2022
+207,Fries,560,pounds,10-13-2022
+208,Lettuce,25,pounds,10-13-2022
+209,Browie,175,pounds,10-13-2022
+210,Batter,16,pounds,10-13-2022
+200,napkin,40,batches,10-14-2022
+201,cups,65,batches,10-14-2022
+202,cup lid,65,batches,10-14-2022
+203,Chic-Fil-A Sauce,750,saucer,10-14-2022
+204,Polynesian Sauce,200,saucer,10-14-2022
+205,Chicken,510,pounds,10-14-2022
+206,Burger buns,700,buns,10-14-2022
+207,Fries,460,pounds,10-14-2022
+208,Lettuce,20,pounds,10-14-2022
+209,Browie,160,pounds,10-14-2022
+210,Batter,14,pounds,10-14-2022
+200,napkin,10,batches,10-15-2022
+201,cups,25,batches,10-15-2022
+202,cup lid,25,batches,10-15-2022
+203,Chic-Fil-A Sauce,450,saucer,10-15-2022
+204,Polynesian Sauce,1050,saucer,10-15-2022
+205,Chicken,400,pounds,10-15-2022
+206,Burger buns,500,buns,10-15-2022
+207,Fries,220,pounds,10-15-2022
+208,Lettuce,5,pounds,10-15-2022
+209,Browie,115,pounds,10-15-2022
+210,Batter,9,pounds,10-15-2022
+200,napkin,100,batches,10-16-2022
+201,cups,160,batches,10-16-2022
+202,cup lid,160,batches,10-16-2022
+203,Chic-Fil-A Sauce,300,saucer,10-16-2022
+204,Polynesian Sauce,1000,saucer,10-16-2022
+205,Chicken,340,pounds,10-16-2022
+206,Burger buns,400,buns,10-16-2022
+207,Fries,120,pounds,10-16-2022
+208,Lettuce,100,pounds,10-16-2022
+209,Browie,100,pounds,10-16-2022
+210,Batter,7,pounds,10-16-2022
+200,napkin,90,batches,10-17-2022
+201,cups,145,batches,10-17-2022
+202,cup lid,145,batches,10-17-2022
+203,Chic-Fil-A Sauce,150,saucer,10-17-2022
+204,Polynesian Sauce,950,saucer,10-17-2022
+205,Chicken,280,pounds,10-17-2022
+206,Burger buns,300,buns,10-17-2022
+207,Fries,1020,pounds,10-17-2022
+208,Lettuce,95,pounds,10-17-2022
+209,Browie,85,pounds,10-17-2022
+210,Batter,5,pounds,10-17-2022
+200,napkin,80,batches,10-18-2022
+201,cups,130,batches,10-18-2022
+202,cup lid,130,batches,10-18-2022
+203,Chic-Fil-A Sauce,1000,saucer,10-18-2022
+204,Polynesian Sauce,900,saucer,10-18-2022
+205,Chicken,220,pounds,10-18-2022
+206,Burger buns,200,buns,10-18-2022
+207,Fries,920,pounds,10-18-2022
+208,Lettuce,90,pounds,10-18-2022
+209,Browie,70,pounds,10-18-2022
+210,Batter,3,pounds,10-18-2022
+200,napkin,70,batches,10-19-2022
+201,cups,115,batches,10-19-2022
+202,cup lid,115,batches,10-19-2022
+203,Chic-Fil-A Sauce,850,saucer,10-19-2022
+204,Polynesian Sauce,850,saucer,10-19-2022
+205,Chicken,160,pounds,10-19-2022
+206,Burger buns,100,buns,10-19-2022
+207,Fries,820,pounds,10-19-2022
+208,Lettuce,85,pounds,10-19-2022
+209,Browie,55,pounds,10-19-2022
+210,Batter,16,pounds,10-19-2022
+200,napkin,60,batches,10-20-2022
+201,cups,100,batches,10-20-2022
+202,cup lid,100,batches,10-20-2022
+203,Chic-Fil-A Sauce,700,saucer,10-20-2022
+204,Polynesian Sauce,800,saucer,10-20-2022
+205,Chicken,100,pounds,10-20-2022
+206,Burger buns,1100,buns,10-20-2022
+207,Fries,720,pounds,10-20-2022
+208,Lettuce,80,pounds,10-20-2022
+209,Browie,40,pounds,10-20-2022
+210,Batter,14,pounds,10-20-2022
+200,napkin,50,batches,10-21-2022
+201,cups,85,batches,10-21-2022
+202,cup lid,85,batches,10-21-2022
+203,Chic-Fil-A Sauce,550,saucer,10-21-2022
+204,Polynesian Sauce,750,saucer,10-21-2022
+205,Chicken,40,pounds,10-21-2022
+206,Burger buns,1000,buns,10-21-2022
+207,Fries,620,pounds,10-21-2022
+208,Lettuce,75,pounds,10-21-2022
+209,Browie,25,pounds,10-21-2022
+210,Batter,12,pounds,10-21-2022
+200,napkin,40,batches,10-22-2022
+201,cups,70,batches,10-22-2022
+202,cup lid,70,batches,10-22-2022
+203,Chic-Fil-A Sauce,400,saucer,10-22-2022
+204,Polynesian Sauce,700,saucer,10-22-2022
+205,Chicken,680,pounds,10-22-2022
+206,Burger buns,900,buns,10-22-2022
+207,Fries,520,pounds,10-22-2022
+208,Lettuce,70,pounds,10-22-2022
+209,Browie,10,pounds,10-22-2022
+210,Batter,10,pounds,10-22-2022
