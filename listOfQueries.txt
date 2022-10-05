@@ -1,0 +1,31 @@
+1. SELECT count (orderid) FROM "order" WHERE orderdate='2022-10-08';
+
+2. SELECT count (orderid) FROM "order" WHERE orderdate='2022-10-12';
+
+3. SELECT sum (amount) FROM "order" WHERE orderdate='2022-10-08';
+
+4. SELECT sum (amount) from "order" WHERE orderdate='2022-10-12';
+
+5. select sum (amount) from"order" where ('2022-10-02' <= orderdate) and (orderdate <= '2022-10-08');
+
+6. select sum (amount) FROM "order" where ('2022-10-16' <= orderdate) and (orderdate <= '2022-10-22');
+
+7. select item, supplyquantity, date From "supply" Where item='Chicken';
+
+8. select distinct supplyquantity FROM "supply" WHERE item='Chicken' and date='2022-10-08';
+
+9. select max(supplyquantity), date FROM "supply" WHERE item='Chicken' Group by date;
+
+10. select count (item) From "supply" Where units='batches';
+
+11. select distinct item from "supply" Where supplyquantity > 200 and date = '2022-10-02';
+
+12. select date from "supply" Where (item = 'cups') and (supplyquantity <= 90);
+
+
+13. select count(item) from supply Where (item = 'Chicken') and (supplyquantity <= 500);
+
+
+14. select a.total, a.foodid from (Select sum(quantity) as total, foodid from "order" Group by FoodID) a Order by a.total DESC;
+
+15. select price, fooditem From food Order by price desc;
