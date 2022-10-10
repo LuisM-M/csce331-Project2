@@ -2,11 +2,11 @@ import javax.swing.*;
 public class gui{
     public gui(){
         JFrame system = new JFrame();
-        JButton button = new JButton("Sandwichs");
+        JButton button = new JButton("Sandwiches");
         button.setBounds(300,0,100,50);
         system.add(button);
 
-        JButton salad = new JButton("Salids");
+        JButton salad = new JButton("Salads");
         salad.setBounds(400, 0, 100, 50);
         system.add(salad);
 
@@ -18,7 +18,7 @@ public class gui{
         dessert.setBounds(600, 0, 100,50);
         system.add(dessert);
 
-        JButton manager = new JButton("Manger");
+        JButton manager = new JButton("Manager");
         manager.setBounds(0, 410, 100, 50);
         system.add(manager);
 
