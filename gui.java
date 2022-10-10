@@ -26,6 +26,10 @@ public class gui{
         amount.setBounds(300, 410, 100, 50);
         system.add(amount);
 
+        JButton amount2 = new JButton("2");
+        amount2.setBounds(400, 410, 100, 50);
+        system.add(amount2);
+
         system.setSize(800,500);
         system.setLayout(null);
         system.setVisible(true);
