@@ -62,6 +62,23 @@ public class gui{
         marketsalid.setBounds(650, 200, 150, 50);
         system.add(marketsalid);
 
+        JButton frostedcoffee = new JButton("Frosted Coffee");
+        frostedcoffee.setBounds(300,250,150,50);
+        system.add(frostedcoffee);
+
+        JButton lemonade = new JButton("Lemonade");
+        lemonade.setBounds(450,250,150,50);
+        system.add(lemonade);
+
+        JButton IcedTea = new JButton("Ice Tea");
+        IcedTea.setBounds(600,250,100,50);
+        system.add(IcedTea);
+
+        JButton milkshake = new JButton("Milkshake");
+        milkshake.setBounds(700,250,100,50);
+        system.add(milkshake);
+
+
         JButton manager = new JButton("Manger");
         manager.setBounds(0, 410, 100, 50);
         system.add(manager);
@@ -69,6 +86,8 @@ public class gui{
         JButton amount = new JButton("1");
         amount.setBounds(300, 410, 100, 50);
         system.add(amount);
+
+        
 
         JButton amount2 = new JButton("2");
         amount2.setBounds(400, 410, 100, 50);
