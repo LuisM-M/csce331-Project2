@@ -29,9 +29,9 @@ public class gui{
 
 
     }
-    public static void main(String[] args){
+    /*public static void main(String[] args){
         //creating the instance of JFrame
         new gui();
         
-    }
+    }*/
 }
