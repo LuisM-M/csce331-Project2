@@ -1,3 +1,5 @@
+//package application;
+
 import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -6,10 +8,10 @@ import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
 public class MainFrame {
-
+    int foodId;
     public MainFrame(){
+        
         JFrame system = new JFrame();
-        //@author
 
         system.setSize(1080,720);
         system.getContentPane().setLayout(null);
@@ -18,7 +20,7 @@ public class MainFrame {
         system.setVisible(true);
         system.setVisible(true);
         system.setVisible(true);
-
+        
         JSplitPane splitPane = new JSplitPane();
         splitPane.setBounds(10, 10, 1080, 720);
         system.getContentPane().add(splitPane);
@@ -32,23 +34,19 @@ public class MainFrame {
         JPanel meal_panel = new JPanel();
         tabbedPane.addTab("Meals", null, meal_panel, null);
         
-        JLabel dummyEntrees = new JLabel("Dummy");  // for capturing panel clicking
-        meal_panel.add(dummyEntrees);
-
         JButton meal_1 = new JButton("1");
         meal_1.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
-                //this.foodId = 1;
-        		//System.out.println("meal 1");
-                dummyEntrees.setText("1");
+        		System.out.println("meal 1");
+                //foodId = 0;
         	}
         });
         meal_panel.add(meal_1);
         
+        
         JButton meal_2 = new JButton("2");
         meal_2.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
-                dummyEntrees.setText("2");
         		System.out.println("meal 2");
         	}
         });
@@ -196,14 +194,16 @@ public class MainFrame {
         gbc_box_3_1_7.gridx = 2;
         gbc_box_3_1_7.gridy = 7;
         entree1_panel.add(sauce2ComboBox_3_1, gbc_box_3_1_7);
-        //@return
         
         JButton addButton_3_1 = new JButton("Add!");
         addButton_3_1.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
-        		System.out.println("");
+                //foodId = 1;
+        		System.out.println("meal 1");
         	}
         });
+        
+
         GridBagConstraints gbc_btn_3_1 = new GridBagConstraints();
         gbc_btn_3_1.gridx = 2;
         gbc_btn_3_1.gridy = 20;
@@ -224,7 +224,6 @@ public class MainFrame {
         gbc_lbl_3_2_0.gridx = 0;
         gbc_lbl_3_2_0.gridy = 0;
         entree2_panel.add(breadLabel_3_2, gbc_lbl_3_2_0);
-        //@throws
 
         JComboBox breadComboBox_3_2 = new JComboBox(breadChoices);  
         GridBagConstraints gbc_box_3_2_0 = new GridBagConstraints();
@@ -342,7 +341,8 @@ public class MainFrame {
         JButton addButton_3_2 = new JButton("Add!");
         addButton_3_2.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
-        		System.out.println("Meal 2");
+                foodId = 1;
+        		System.out.println("Deluxe Sandwich add!");
         	}
         });
         GridBagConstraints gbc_btn_3_2 = new GridBagConstraints();
@@ -1069,35 +1069,28 @@ public class MainFrame {
         JLabel lblNewLabel = new JLabel("Chick-Fil-A Receipt System");
         panel_1.add(lblNewLabel);
         system.setVisible(true);
-        
-        btnNewButton.addActionListener(e->{
-            String sql = "SELECT price from food where foodId=" + dummyEntrees.getText();
-            String txt = lblNewLabel.getText();
-            String cheese = cheeseComboBox.getSelectedItem().toString();
-            String lettuce = lettuceComboBox.getSelectedItem().toString();
-            String tomato = tomatoComboBox.getSelectedItem().toString();
-            String pickles = picklesComboBox.getSelectedItem().toString();
-            String bacon = baconComboBox.getSelectedItem().toString();
-            String sauce = sauce1ComboBox.getSelectedItem().toString();
-            txt = txt + "<br/><br/>======= Order " + CallBackAction.orderDateTime() + 
-                    " ======<br/>Cheese: " + cheese + "<br/>Lettuce: " + lettuce +
-                    "<br/>Tomato: " + tomato + "<br/>Pickles: " + pickles +
-                    "<br/>Bacon: " + bacon + "<br/>Sauce: " + sauce ;
 
+        addButton_3_1.addActionListener(e->{
+            String txt = lblNewLabel.getText();
+            String sql = "SELECT price from \"food\" where foodId=" + Integer.toString(foodId);
+            txt = txt + "<br/><br/>======= Order " + CallBackAction.orderDateTime();
             lblNewLabel.setText("<html>" + txt + "<br/>" + sql + "<html>"); 
         });
-        /*btnNewButton.addActionListener(actions);
 
-        public ActionListener actions (new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                if (e.getSource() == btnNewButton) {
-
-                }
-            }
-        });*/
+        addButton_3_2.addActionListener(e->{
+            String txt = lblNewLabel.getText();
+            //String sqlSelect = "SELECT price FROM \"food\" WHERE foodId=" + String.valueOf(foodId) + ";";
+            //System.out.println(sqlSelect);
+            //float getPrice = CallBackAction.getFloatFromTable(sqlSelect);
+            String sqlAdd = "INSERT INTO \"order\" (OrderID, FoodID, Quantity, OrderDate, Amount) VALUES(" + Integer.toString(111) 
+            + "," + Integer.toString(1) + "," + Integer.toString(1) + ",'" + CallBackAction.orderDate() + "'," + "4.99" + ");";
+            //System.out.println(sqlAdd);
+            txt = txt + "<br/><br/>======= Order " + CallBackAction.orderDateTime();
+            CallBackAction.updateTable(sqlAdd);
+            lblNewLabel.setText("<html>" + txt + "<br/>" + "$4.99" + "<html>"); 
+        });
     }
     
-
     public static void main(String[] args){
         //creating the instance of JFrame
         new MainFrame();
