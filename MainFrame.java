@@ -1152,7 +1152,7 @@ public class MainFrame {
         JPanel dessert_panel = new JPanel(new GridLayout(5,0,10,10));
         tabbedPane.addTab("Treats", null, dessert_panel, null);
 
-        JButton dessert = new JButton("Browie");
+        JButton dessert = new JButton("Brownie");
         dessert_panel.add(dessert);
 
         JButton cookie = new JButton("Cookie");
