@@ -7,6 +7,7 @@ import java.awt.GridBagConstraints;
 import java.awt.Insets;
 
 public class MainFrame {
+
     public MainFrame(){
         JFrame system = new JFrame();
 
@@ -17,7 +18,7 @@ public class MainFrame {
         system.setVisible(true);
         system.setVisible(true);
         system.setVisible(true);
-        
+
         JSplitPane splitPane = new JSplitPane();
         splitPane.setBounds(10, 10, 1080, 720);
         system.getContentPane().add(splitPane);
@@ -31,15 +32,26 @@ public class MainFrame {
         JPanel meal_panel = new JPanel();
         tabbedPane.addTab("Meals", null, meal_panel, null);
         
+        JLabel dummyEntrees = new JLabel("Dummy");  // for capturing panel clicking
+        meal_panel.add(dummyEntrees);
+
         JButton meal_1 = new JButton("1");
         meal_1.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
-        		System.out.println("meal 1");
+                //this.foodId = 1;
+        		//System.out.println("meal 1");
+                dummyEntrees.setText("1");
         	}
         });
         meal_panel.add(meal_1);
         
         JButton meal_2 = new JButton("2");
+        meal_2.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+                dummyEntrees.setText("2");
+        		System.out.println("meal 2");
+        	}
+        });
         meal_panel.add(meal_2);
         
         JTabbedPane entree_panel = new JTabbedPane(JTabbedPane.TOP);
@@ -169,6 +181,7 @@ public class MainFrame {
         entree1_panel.add(sauce2ComboBox, gbc_box_3_1_7);
         
         JButton btnNewButton = new JButton("Add!");
+        
         GridBagConstraints gbc_btnNewButton = new GridBagConstraints();
         gbc_btnNewButton.gridx = 2;
         gbc_btnNewButton.gridy = 20;
@@ -198,9 +211,35 @@ public class MainFrame {
         JLabel lblNewLabel = new JLabel("YO you ain't seeing the basement bitch");
         panel_1.add(lblNewLabel);
         system.setVisible(true);
+        
+        btnNewButton.addActionListener(e->{
+            String sql = "SELECT price from food where foodId=" + dummyEntrees.getText();
+            String txt = lblNewLabel.getText();
+            String cheese = cheeseComboBox.getSelectedItem().toString();
+            String lettuce = lettuceComboBox.getSelectedItem().toString();
+            String tomato = tomatoComboBox.getSelectedItem().toString();
+            String pickles = picklesComboBox.getSelectedItem().toString();
+            String bacon = baconComboBox.getSelectedItem().toString();
+            String sauce = sauce1ComboBox.getSelectedItem().toString();
+            txt = txt + "<br/><br/>======= Order " + CallBackAction.orderDateTime() + 
+                    " ======<br/>Cheese: " + cheese + "<br/>Lettuce: " + lettuce +
+                    "<br/>Tomato: " + tomato + "<br/>Pickles: " + pickles +
+                    "<br/>Bacon: " + bacon + "<br/>Sauce: " + sauce ;
 
+            lblNewLabel.setText("<html>" + txt + "<br/>" + sql + "<html>"); 
+        });
+        /*btnNewButton.addActionListener(actions);
+
+        public ActionListener actions (new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                if (e.getSource() == btnNewButton) {
+
+                }
+            }
+        });*/
     }
     
+
     public static void main(String[] args){
         //creating the instance of JFrame
         new MainFrame();
