@@ -67,7 +67,7 @@ public class MainFrame {
         String[] pickleChoices = {"None", "Regular", "Extra"};
         String[] baconChoices = {"None", "One Serving", "Extra"};
         String[] sauceChoices = {"None", "Ketchup", "Mustard", "Chick-Fil-A", "Polynesian", "Barbeque", "Honey Mustard", "Zesty Buffalo", "Sweet and Spicy Siracha", "Honey Roasted BBQ"};
-        String[] dressingChoices = {"Avocado Lime Ranch", "Garden Herb Ranch", "Zesty Apple Cider Vinaigrette", "Creamy Salsa", "Light Balsamic Vinaigrette", "Fat Free Honey Mustard", "Light Italian"};
+        String[] dressingChoices = {"None", "Avocado Lime Ranch", "Garden Herb Ranch", "Zesty Apple Cider Vinaigrette", "Creamy Salsa", "Light Balsamic Vinaigrette", "Fat Free Honey Mustard", "Light Italian"};
         String[] jalapenoChoices = {"None", "One Serving", "Extra"};
         String[] nugCountChoices = {"8 ct", "12 ct"};
         String[] strCountChoices = {"3 ct", "4 ct"};
@@ -342,7 +342,7 @@ public class MainFrame {
         JButton addButton_3_2 = new JButton("Add Deluxe Sandwich!");
         addButton_3_2.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
-        		System.out.println("Meal 2");
+        		System.out.println("Entree 2");
         	}
         });
         GridBagConstraints gbc_btn_3_2 = new GridBagConstraints();
@@ -433,6 +433,7 @@ public class MainFrame {
         gbc_box_3_3_4.gridx = 2;
         gbc_box_3_3_4.gridy = 4;
         entree3_panel.add(picklesComboBox_3_3, gbc_box_3_3_4);
+        picklesComboBox_3_3.setSelectedItem("Regular");
 
         JLabel baconLabel_3_3 = new JLabel("Bacon");
         GridBagConstraints gbc_lbl_3_3_5 = new GridBagConstraints();
@@ -528,6 +529,7 @@ public class MainFrame {
         gbc_box_3_4_1.gridx = 2;
         gbc_box_3_4_1.gridy = 1;
         entree4_panel.add(cheeseComboBox_3_4, gbc_box_3_4_1);
+        cheeseComboBox_3_4.setSelectedItem("Pepper Jack");
 
         JLabel lettuceLabel_3_4 = new JLabel("Lettuce");
         GridBagConstraints gbc_lbl_3_4_2 = new GridBagConstraints();
@@ -543,6 +545,7 @@ public class MainFrame {
         gbc_box_3_4_2.gridx = 2;
         gbc_box_3_4_2.gridy = 2;
         entree4_panel.add(lettuceComboBox_3_4, gbc_box_3_4_2);
+        lettuceComboBox_3_4.setSelectedItem("Regular");
 
         JLabel tomatoLabel_3_4 = new JLabel("Tomato");
         GridBagConstraints gbc_lbl_3_4_3 = new GridBagConstraints();
@@ -558,6 +561,7 @@ public class MainFrame {
         gbc_box_3_4_3.gridx = 2;
         gbc_box_3_4_3.gridy = 3;
         entree4_panel.add(tomatoComboBox_3_4, gbc_box_3_4_3);
+        tomatoComboBox_3_4.setSelectedItem("Regular");
 
         JLabel picklesLabel_3_4 = new JLabel("Pickles");
         GridBagConstraints gbc_lbl_3_4_4 = new GridBagConstraints();
@@ -573,6 +577,7 @@ public class MainFrame {
         gbc_box_3_4_4.gridx = 2;
         gbc_box_3_4_4.gridy = 4;
         entree4_panel.add(picklesComboBox_3_4, gbc_box_3_4_4);
+        picklesComboBox_3_4.setSelectedItem("Regular");
 
         JLabel baconLabel_3_4 = new JLabel("Bacon");
         GridBagConstraints gbc_lbl_3_4_5 = new GridBagConstraints();
@@ -588,7 +593,6 @@ public class MainFrame {
         gbc_box_3_4_5.gridx = 2;
         gbc_box_3_4_5.gridy = 5;
         entree4_panel.add(baconComboBox_3_4, gbc_box_3_4_5);
-        // Eric was here 2022-10-12 2:19 pm
 
         JLabel sauce1Label_3_4 = new JLabel("Sauce Option 1");
         GridBagConstraints gbc_lbl_3_4_6 = new GridBagConstraints();
@@ -653,6 +657,7 @@ public class MainFrame {
         gbc_box_3_5_0.gridx = 2;
         gbc_box_3_5_0.gridy = 0;
         entree5_panel.add(breadComboBox_3_5, gbc_box_3_5_0);
+        breadComboBox_3_5.setSelectedItem("Multigrain Brioche Bun");
 
         JLabel cheeseLabel_3_5 = new JLabel("Cheese");
         GridBagConstraints gbc_lbl_3_5_1 = new GridBagConstraints();
@@ -683,6 +688,7 @@ public class MainFrame {
         gbc_box_3_5_2.gridx = 2;
         gbc_box_3_5_2.gridy = 2;
         entree5_panel.add(lettuceComboBox_3_5, gbc_box_3_5_2);
+        lettuceComboBox_3_5.setSelectedItem("Regular");
 
         JLabel tomatoLabel_3_5 = new JLabel("Tomato");
         GridBagConstraints gbc_lbl_3_5_3 = new GridBagConstraints();
@@ -698,6 +704,7 @@ public class MainFrame {
         gbc_box_3_5_3.gridx = 2;
         gbc_box_3_5_3.gridy = 3;
         entree5_panel.add(tomatoComboBox_3_5, gbc_box_3_5_3);
+        tomatoComboBox_3_5.setSelectedItem("Regular");
 
         JLabel picklesLabel_3_5 = new JLabel("Pickles");
         GridBagConstraints gbc_lbl_3_5_4 = new GridBagConstraints();
@@ -743,6 +750,7 @@ public class MainFrame {
         gbc_box_3_5_6.gridx = 2;
         gbc_box_3_5_6.gridy = 6;
         entree5_panel.add(sauce1ComboBox_3_5, gbc_box_3_5_6);
+        sauce1ComboBox_3_5.setSelectedItem("Honey Mustard");
 
         JLabel sauce2Label_3_5 = new JLabel("Sauce Option 2");
         GridBagConstraints gbc_lbl_3_5_7 = new GridBagConstraints();
@@ -792,6 +800,7 @@ public class MainFrame {
         gbc_box_3_6_0.gridx = 2;
         gbc_box_3_6_0.gridy = 0;
         entree6_panel.add(breadComboBox_3_6, gbc_box_3_6_0);
+        breadComboBox_3_6.setSelectedItem("Multigrain Brioche Bun");
 
         JLabel cheeseLabel_3_6 = new JLabel("Cheese");
         GridBagConstraints gbc_lbl_3_6_1 = new GridBagConstraints();
@@ -807,6 +816,7 @@ public class MainFrame {
         gbc_box_3_6_1.gridx = 2;
         gbc_box_3_6_1.gridy = 1;
         entree6_panel.add(cheeseComboBox_3_6, gbc_box_3_6_1);
+        cheeseComboBox_3_6.setSelectedItem("Colby Jack");
 
         JLabel lettuceLabel_3_6 = new JLabel("Lettuce");
         GridBagConstraints gbc_lbl_3_6_2 = new GridBagConstraints();
@@ -822,6 +832,7 @@ public class MainFrame {
         gbc_box_3_6_2.gridx = 2;
         gbc_box_3_6_2.gridy = 2;
         entree6_panel.add(lettuceComboBox_3_6, gbc_box_3_6_2);
+        lettuceComboBox_3_6.setSelectedItem("Regular");
 
         JLabel tomatoLabel_3_6 = new JLabel("Tomato");
         GridBagConstraints gbc_lbl_3_6_3 = new GridBagConstraints();
@@ -837,6 +848,7 @@ public class MainFrame {
         gbc_box_3_6_3.gridx = 2;
         gbc_box_3_6_3.gridy = 3;
         entree6_panel.add(tomatoComboBox_3_6, gbc_box_3_6_3);
+        tomatoComboBox_3_6.setSelectedItem("Regular");
 
         JLabel picklesLabel_3_6 = new JLabel("Pickles");
         GridBagConstraints gbc_lbl_3_6_4 = new GridBagConstraints();
@@ -867,6 +879,7 @@ public class MainFrame {
         gbc_box_3_6_5.gridx = 2;
         gbc_box_3_6_5.gridy = 5;
         entree6_panel.add(baconComboBox_3_6, gbc_box_3_6_5);
+        baconComboBox_3_6.setSelectedItem("Regular");
 
         JLabel sauce1Label_3_6 = new JLabel("Sauce Option 1");
         GridBagConstraints gbc_lbl_3_6_6 = new GridBagConstraints();
@@ -882,6 +895,7 @@ public class MainFrame {
         gbc_box_3_6_6.gridx = 2;
         gbc_box_3_6_6.gridy = 6;
         entree6_panel.add(sauce1ComboBox_3_6, gbc_box_3_6_6);
+        sauce1ComboBox_3_6.setSelectedItem("Honey Mustard");
 
         JLabel sauce2Label_3_6 = new JLabel("Sauce Option 2");
         GridBagConstraints gbc_lbl_3_6_7 = new GridBagConstraints();
@@ -947,6 +961,7 @@ public class MainFrame {
         gbc_box_3_7_1.gridx = 2;
         gbc_box_3_7_1.gridy = 1;
         entree7_panel.add(cheeseComboBox_3_7, gbc_box_3_7_1);
+        cheeseComboBox_3_7.setSelectedItem("Colby Jack");
 
         JLabel lettuceLabel_3_7 = new JLabel("Lettuce");
         GridBagConstraints gbc_lbl_3_7_2 = new GridBagConstraints();
@@ -962,6 +977,7 @@ public class MainFrame {
         gbc_box_3_7_2.gridx = 2;
         gbc_box_3_7_2.gridy = 2;
         entree7_panel.add(lettuceComboBox_3_7, gbc_box_3_7_2);
+        lettuceComboBox_3_7.setSelectedItem("Regular");
 
         JLabel tomatoLabel_3_7 = new JLabel("Tomato");
         GridBagConstraints gbc_lbl_3_7_3 = new GridBagConstraints();
@@ -977,6 +993,7 @@ public class MainFrame {
         gbc_box_3_7_3.gridx = 2;
         gbc_box_3_7_3.gridy = 3;
         entree7_panel.add(tomatoComboBox_3_7, gbc_box_3_7_3);
+        tomatoComboBox_3_7.setSelectedItem("Regular");
 
         JLabel picklesLabel_3_7 = new JLabel("Pickles");
         GridBagConstraints gbc_lbl_3_7_4 = new GridBagConstraints();
@@ -992,6 +1009,7 @@ public class MainFrame {
         gbc_box_3_7_4.gridx = 2;
         gbc_box_3_7_4.gridy = 4;
         entree7_panel.add(picklesComboBox_3_7, gbc_box_3_7_4);
+        picklesComboBox_3_7.setSelectedItem("Regular");
 
         JLabel baconLabel_3_7 = new JLabel("Bacon");
         GridBagConstraints gbc_lbl_3_7_5 = new GridBagConstraints();
@@ -1123,6 +1141,62 @@ public class MainFrame {
         gbl_entree9_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree9_panel.setLayout(gbl_entree9_panel);
         
+        JLabel nugCountLabel_3_9 = new JLabel("Nugget Count");
+        GridBagConstraints gbc_lbl_3_9_0 = new GridBagConstraints();
+        gbc_lbl_3_9_0.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_9_0.gridx = 0;
+        gbc_lbl_3_9_0.gridy = 0;
+        entree9_panel.add(nugCountLabel_3_9, gbc_lbl_3_9_0);
+
+        JComboBox nugCountComboBox_3_9 = new JComboBox(nugCountChoices);
+        GridBagConstraints gbc_box_3_9_0 = new GridBagConstraints();
+        gbc_box_3_9_0.insets = new Insets(0, 0, 5, 0);
+        gbc_box_3_9_0.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_9_0.gridx = 2;
+        gbc_box_3_9_0.gridy = 0;
+        entree9_panel.add(nugCountComboBox_3_9, gbc_box_3_9_0);
+        
+        JLabel sauce1Label_3_9 = new JLabel("Sauce Option 1");
+        GridBagConstraints gbc_lbl_3_9_1 = new GridBagConstraints();
+        gbc_lbl_3_9_1.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_9_1.gridx = 0;
+        gbc_lbl_3_9_1.gridy = 1;
+        entree9_panel.add(sauce1Label_3_9, gbc_lbl_3_9_1);
+
+        JComboBox sauce1ComboBox_3_9 = new JComboBox(sauceChoices);
+        GridBagConstraints gbc_box_3_9_1 = new GridBagConstraints();
+        gbc_box_3_9_1.insets = new Insets(0, 0, 5, 0);
+        gbc_box_3_9_1.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_9_1.gridx = 2;
+        gbc_box_3_9_1.gridy = 1;
+        entree9_panel.add(sauce1ComboBox_3_9, gbc_box_3_9_1);
+
+        JLabel sauce2Label_3_9 = new JLabel("Sauce Option 2");
+        GridBagConstraints gbc_lbl_3_9_2 = new GridBagConstraints();
+        gbc_lbl_3_9_2.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_9_2.gridx = 0;
+        gbc_lbl_3_9_2.gridy = 2;
+        entree9_panel.add(sauce2Label_3_9, gbc_lbl_3_9_2);
+
+        JComboBox sauce2ComboBox_3_9 = new JComboBox(sauceChoices);
+        GridBagConstraints gbc_box_3_9_2 = new GridBagConstraints();
+        gbc_box_3_9_2.insets = new Insets(0, 0, 5, 0);
+        gbc_box_3_9_2.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_9_2.gridx = 2;
+        gbc_box_3_9_2.gridy = 2;
+        entree9_panel.add(sauce2ComboBox_3_9, gbc_box_3_9_2);
+        
+        JButton addButton_3_9 = new JButton("Add Grilled Nuggets!");
+        addButton_3_9.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+                        System.out.println("Grilled Nuggets");
+                }
+        });
+        GridBagConstraints gbc_btn_3_9 = new GridBagConstraints();
+        gbc_btn_3_9.gridx = 2;
+        gbc_btn_3_9.gridy = 3;
+        entree9_panel.add(addButton_3_9, gbc_btn_3_9);
+        
         JPanel entree10_panel = new JPanel();
         entree_panel.addTab("Chick-n Strips", null, entree10_panel, null);
         GridBagLayout gbl_entree10_panel = new GridBagLayout();
@@ -1132,6 +1206,62 @@ public class MainFrame {
         gbl_entree10_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree10_panel.setLayout(gbl_entree10_panel);
         
+        JLabel strCountLabel_3_10 = new JLabel("Nugget Count");
+        GridBagConstraints gbc_lbl_3_10_0 = new GridBagConstraints();
+        gbc_lbl_3_10_0.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_10_0.gridx = 0;
+        gbc_lbl_3_10_0.gridy = 0;
+        entree10_panel.add(strCountLabel_3_10, gbc_lbl_3_10_0);
+
+        JComboBox strCountComboBox_3_10 = new JComboBox(strCountChoices);
+        GridBagConstraints gbc_box_3_10_0 = new GridBagConstraints();
+        gbc_box_3_10_0.insets = new Insets(0, 0, 5, 0);
+        gbc_box_3_10_0.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_10_0.gridx = 2;
+        gbc_box_3_10_0.gridy = 0;
+        entree10_panel.add(strCountComboBox_3_10, gbc_box_3_10_0);
+        
+        JLabel sauce1Label_3_10 = new JLabel("Sauce Option 1");
+        GridBagConstraints gbc_lbl_3_10_1 = new GridBagConstraints();
+        gbc_lbl_3_10_1.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_10_1.gridx = 0;
+        gbc_lbl_3_10_1.gridy = 1;
+        entree10_panel.add(sauce1Label_3_10, gbc_lbl_3_10_1);
+
+        JComboBox sauce1ComboBox_3_10 = new JComboBox(sauceChoices);
+        GridBagConstraints gbc_box_3_10_1 = new GridBagConstraints();
+        gbc_box_3_10_1.insets = new Insets(0, 0, 5, 0);
+        gbc_box_3_10_1.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_10_1.gridx = 2;
+        gbc_box_3_10_1.gridy = 1;
+        entree10_panel.add(sauce1ComboBox_3_10, gbc_box_3_10_1);
+
+        JLabel sauce2Label_3_10 = new JLabel("Sauce Option 2");
+        GridBagConstraints gbc_lbl_3_10_2 = new GridBagConstraints();
+        gbc_lbl_3_10_2.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_10_2.gridx = 0;
+        gbc_lbl_3_10_2.gridy = 2;
+        entree10_panel.add(sauce2Label_3_10, gbc_lbl_3_10_2);
+
+        JComboBox sauce2ComboBox_3_10 = new JComboBox(sauceChoices);
+        GridBagConstraints gbc_box_3_10_2 = new GridBagConstraints();
+        gbc_box_3_10_2.insets = new Insets(0, 0, 5, 0);
+        gbc_box_3_10_2.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_10_2.gridx = 2;
+        gbc_box_3_10_2.gridy = 2;
+        entree10_panel.add(sauce2ComboBox_3_10, gbc_box_3_10_2);
+        
+        JButton addButton_3_10 = new JButton("Add Chick-n Strips!");
+        addButton_3_10.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+                        System.out.println("Chick-n Strips");
+                }
+        });
+        GridBagConstraints gbc_btn_3_10 = new GridBagConstraints();
+        gbc_btn_3_10.gridx = 2;
+        gbc_btn_3_10.gridy = 3;
+        entree10_panel.add(addButton_3_10, gbc_btn_3_10);
+        
         JPanel entree11_panel = new JPanel();
         entree_panel.addTab("Cool Wrap", null, entree11_panel, null);
         GridBagLayout gbl_entree11_panel = new GridBagLayout();
@@ -1140,6 +1270,47 @@ public class MainFrame {
         gbl_entree11_panel.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
         gbl_entree11_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree11_panel.setLayout(gbl_entree11_panel);
+        
+        JLabel dressing1Label_3_11 = new JLabel("Dressing Option 1");
+        GridBagConstraints gbc_lbl_3_11_0 = new GridBagConstraints();
+        gbc_lbl_3_11_0.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_11_0.gridx = 0;
+        gbc_lbl_3_11_0.gridy = 0;
+        entree11_panel.add(dressing1Label_3_11, gbc_lbl_3_11_0);
+
+        JComboBox dressing1ComboBox_3_11 = new JComboBox(dressingChoices);
+        GridBagConstraints gbc_box_3_11_0 = new GridBagConstraints();
+        gbc_box_3_11_0.insets = new Insets(0, 0, 5, 0);
+        gbc_box_3_11_0.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_11_0.gridx = 2;
+        gbc_box_3_11_0.gridy = 0;
+        entree11_panel.add(dressing1ComboBox_3_11, gbc_box_3_11_0);
+        
+        JLabel dressing2Label_3_11 = new JLabel("Dressing Option 2");
+        GridBagConstraints gbc_lbl_3_11_1 = new GridBagConstraints();
+        gbc_lbl_3_11_1.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_11_1.gridx = 0;
+        gbc_lbl_3_11_1.gridy = 1;
+        entree11_panel.add(dressing2Label_3_11, gbc_lbl_3_11_1);
+
+        JComboBox dressing2ComboBox_3_11 = new JComboBox(dressingChoices);
+        GridBagConstraints gbc_box_3_11_1 = new GridBagConstraints();
+        gbc_box_3_11_1.insets = new Insets(0, 0, 5, 0);
+        gbc_box_3_11_1.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_11_1.gridx = 2;
+        gbc_box_3_11_1.gridy = 1;
+        entree11_panel.add(dressing2ComboBox_3_11, gbc_box_3_11_1);
+        
+        JButton addButton_3_11 = new JButton("Add Cool Wrap!");
+        addButton_3_11.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+                        System.out.println("Cool Wrap");
+                }
+        });
+        GridBagConstraints gbc_btn_3_11 = new GridBagConstraints();
+        gbc_btn_3_11.gridx = 2;
+        gbc_btn_3_11.gridy = 3;
+        entree11_panel.add(addButton_3_11, gbc_btn_3_11);
         
         JPanel salad_panel = new JPanel();
         tabbedPane.addTab("Salads", null, salad_panel, null);
