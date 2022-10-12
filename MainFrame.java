@@ -8,6 +8,7 @@ import java.awt.Insets;
 public class MainFrame {
     public MainFrame(){
         JFrame system = new JFrame();
+        //@author
 
         system.setSize(1080,720);
         system.getContentPane().setLayout(null);
@@ -16,7 +17,8 @@ public class MainFrame {
         system.setVisible(true);
         system.setVisible(true);
         system.setVisible(true);
-        
+        //@param
+
         JSplitPane splitPane = new JSplitPane();
         splitPane.setBounds(10, 10, 1080, 720);
         system.getContentPane().add(splitPane);
@@ -183,6 +185,7 @@ public class MainFrame {
         gbc_box_3_1_7.gridx = 2;
         gbc_box_3_1_7.gridy = 7;
         entree1_panel.add(sauce2ComboBox_3_1, gbc_box_3_1_7);
+        //@return
         
         JButton addButton_3_1 = new JButton("Add!");
         addButton_3_1.addActionListener(new ActionListener() {
@@ -210,6 +213,7 @@ public class MainFrame {
         gbc_lbl_3_2_0.gridx = 0;
         gbc_lbl_3_2_0.gridy = 0;
         entree2_panel.add(breadLabel_3_2, gbc_lbl_3_2_0);
+        //@throws
 
         JComboBox breadComboBox_3_2 = new JComboBox(breadChoices);  
         GridBagConstraints gbc_box_3_2_0 = new GridBagConstraints();
