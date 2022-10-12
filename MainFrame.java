@@ -1149,8 +1149,8 @@ public class MainFrame {
         JPanel drink_panel = new JPanel();
         tabbedPane.addTab("Drink", null, drink_panel, null);
         
-        JPanel dessert_panel = new JPanel();
-        tabbedPane.addTab("Desserts", null, dessert_panel, null);
+        JPanel dessert_panel = new JPanel(new GridLayout(5,0,10,10));
+        tabbedPane.addTab("Treats", null, dessert_panel, null);
         
         JPanel kid_panel = new JPanel();
         tabbedPane.addTab("Kids", null, kid_panel, null);
