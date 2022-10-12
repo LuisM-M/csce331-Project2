@@ -194,7 +194,7 @@ public class MainFrame {
         gbc_box_3_1_7.gridy = 7;
         entree1_panel.add(sauce2ComboBox_3_1, gbc_box_3_1_7);
         
-        JButton addButton_3_1 = new JButton("Add!");
+        JButton addButton_3_1 = new JButton("Add Chicken Sandwich!");
         addButton_3_1.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
         		System.out.println("Entree 1");
@@ -339,7 +339,7 @@ public class MainFrame {
         gbc_box_3_2_7.gridy = 7;
         entree2_panel.add(sauce2ComboBox_3_2, gbc_box_3_2_7);
         
-        JButton addButton_3_2 = new JButton("Add!");
+        JButton addButton_3_2 = new JButton("Add Deluxe Sandwich!");
         addButton_3_2.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
         		System.out.println("Meal 2");
@@ -479,7 +479,7 @@ public class MainFrame {
         gbc_box_3_3_7.gridy = 7;
         entree3_panel.add(sauce2ComboBox_3_3, gbc_box_3_3_7);
 
-        JButton addButton_3_3 = new JButton("Add!");
+        JButton addButton_3_3 = new JButton("Add Spicy Chicken Sandwich!");
         addButton_3_3.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
                         System.out.println("Meal 3");
@@ -619,7 +619,7 @@ public class MainFrame {
         gbc_box_3_4_7.gridy = 7;
         entree4_panel.add(sauce2ComboBox_3_4, gbc_box_3_4_7);
 
-        JButton addButton_3_4 = new JButton("Add!");
+        JButton addButton_3_4 = new JButton("Add Spicy Deluxe Sandwich!");
         addButton_3_4.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
                         System.out.println("Meal 4");
@@ -758,7 +758,7 @@ public class MainFrame {
         gbc_box_3_5_7.gridy = 7;
         entree5_panel.add(sauce2ComboBox_3_5, gbc_box_3_5_7);
 
-        JButton addButton_3_5 = new JButton("Add!");
+        JButton addButton_3_5 = new JButton("Add Grilled Sandwich!");
         addButton_3_5.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
                         System.out.println("Meal 5");
@@ -897,7 +897,7 @@ public class MainFrame {
         gbc_box_3_6_7.gridy = 7;
         entree6_panel.add(sauce2ComboBox_3_6, gbc_box_3_6_7);
 
-        JButton addButton_3_6 = new JButton("Add!");
+        JButton addButton_3_6 = new JButton("Add Grilled Chicken Club Sandwich!");
         addButton_3_6.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
                         System.out.println("Meal 6");
@@ -1037,7 +1037,7 @@ public class MainFrame {
         gbc_box_3_7_7.gridy = 7;
         entree7_panel.add(sauce2ComboBox_3_7, gbc_box_3_7_7);
 
-        JButton addButton_3_7 = new JButton("Add!");
+        JButton addButton_3_7 = new JButton("Add Grilled Spicy Deluxe!");
         addButton_3_7.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
                         System.out.println("Meal 7");
@@ -1102,10 +1102,10 @@ public class MainFrame {
         gbc_box_3_8_2.gridy = 2;
         entree8_panel.add(sauce2ComboBox_3_8, gbc_box_3_8_2);
         
-        JButton addButton_3_8 = new JButton("Add!");
+        JButton addButton_3_8 = new JButton("Add Nuggets!");
         addButton_3_8.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
-                        System.out.println("Meal 7");
+                        System.out.println("Nuggets");
                 }
         });
         GridBagConstraints gbc_btn_3_8 = new GridBagConstraints();
@@ -1149,7 +1149,7 @@ public class MainFrame {
         JPanel drink_panel = new JPanel();
         tabbedPane.addTab("Drink", null, drink_panel, null);
         
-        JPanel dessert_panel = new JPanel(new GridLayout(5,0,10,10));
+        JPanel dessert_panel = new JPanel(new GridLayout(4,0,10,10));
         tabbedPane.addTab("Treats", null, dessert_panel, null);
 
         JButton dessert = new JButton("Brownie");
