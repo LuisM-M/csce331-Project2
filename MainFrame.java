@@ -588,6 +588,7 @@ public class MainFrame {
         gbc_box_3_4_5.gridx = 2;
         gbc_box_3_4_5.gridy = 5;
         entree4_panel.add(baconComboBox_3_4, gbc_box_3_4_5);
+        // Eric was here 2022-10-12 2:19 pm
 
         JLabel sauce1Label_3_4 = new JLabel("Sauce Option 1");
         GridBagConstraints gbc_lbl_3_4_6 = new GridBagConstraints();
@@ -1143,13 +1144,46 @@ public class MainFrame {
         JPanel salad_panel = new JPanel();
         tabbedPane.addTab("Salads", null, salad_panel, null);
         
-        JPanel side_panel = new JPanel();
+        JPanel side_panel = new JPanel(new GridLayout(8,0,10,10));
         tabbedPane.addTab("Sides", null, side_panel, null);
+
+        JButton mfries = new JButton("Medium Waffle Fries");
+        side_panel.add(mfries);
+
+        JButton lfries = new JButton("Large Waffle Fries");
+        side_panel.add(lfries);
+
+        JButton fruitcup = new JButton("Fruit Cup");
+        side_panel.add(fruitcup);
+
+        JButton side_salad = new JButton("Side Salad");
+        side_panel.add(side_salad);
+
+        JButton wafflechip = new JButton("Waffle Chips");
+        side_panel.add(wafflechip);
         
-        JPanel drink_panel = new JPanel();
-        tabbedPane.addTab("Drink", null, drink_panel, null);
+        JPanel drink_panel = new JPanel(new GridLayout(5,0,10,10));
+        tabbedPane.addTab("Drinks", null, drink_panel, null);
+
+        JButton lemonade = new JButton("Lemonade");
+        drink_panel.add(lemonade);
+
+        JButton sicetea = new JButton("Sweetened Ice Tea");
+        drink_panel.add(sicetea);
+
+        JButton unicetea = new JButton("Unsweetened Ice Tea");
+        drink_panel.add(unicetea);
+
+        JButton sunjoy = new JButton("Sunjoy");
+        drink_panel.add(sunjoy);
+
+        JButton water = new JButton("Bottled Water");
+        drink_panel.add(water);
+
+        JButton fountain = new JButton("Fountain Drinks");
+        drink_panel.add(fountain);
         
-        JPanel dessert_panel = new JPanel(new GridLayout(5,0,10,10));
+        JPanel dessert_panel = new JPanel(new GridLayout(7,0,5,5));
         tabbedPane.addTab("Treats", null, dessert_panel, null);
 
         JButton dessert = new JButton("Brownie");
@@ -1164,7 +1198,7 @@ public class MainFrame {
         JButton icecup = new JButton("Icedream Cup");
         dessert_panel.add(icecup);
 
-        JButton ccmilkshake = new JButton("Cookie and Cream Milkshake");
+        JButton ccmilkshake = new JButton("Cookies & Cream Milkshake");
         dessert_panel.add(ccmilkshake);
 
         JButton cmilkshake = new JButton("Chocolate Milkshake");
@@ -1184,6 +1218,33 @@ public class MainFrame {
         
         JPanel kid_panel = new JPanel();
         tabbedPane.addTab("Kids", null, kid_panel, null);
+
+        JPanel sauce_panel = new JPanel(new GridLayout(3,0,10,10));
+        tabbedPane.addTab("Sauces",null,sauce_panel,null);
+
+        JButton cf_sauce = new JButton("Chick-Fil-A sause");
+        sauce_panel.add(cf_sauce);
+
+        JButton bbq = new JButton("Barbeque Sauce");
+        sauce_panel.add(bbq);
+
+        JButton GardenRanch = new JButton("Garden Herb Ranch");
+        sauce_panel.add(GardenRanch);
+
+        JButton hmustard = new JButton("Honey Mustard");
+        sauce_panel.add(hmustard);
+
+        JButton polysauce = new JButton("Polynesian Sauce");
+        sauce_panel.add(polysauce);
+
+        JButton sssriracha = new JButton("Sweet & Spicy Sriraha");
+        sauce_panel.add(sssriracha);
+
+        JButton zesty = new JButton("Zesty Buffalo Sauce");
+        sauce_panel.add(zesty);
+
+        JButton roastedbbq = new JButton("Honey Roasted BBQ Sauce");
+        sauce_panel.add(roastedbbq);
         
         
 
