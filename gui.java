@@ -2,12 +2,12 @@ import javax.swing.*;
 public class gui{
     public gui(){
         JFrame system = new JFrame();
-        JButton button = new JButton("Chicken Sandwich");
-        button.setBounds(300,0,200,50);
+        JButton button = new JButton("Sandwiches");
+        button.setBounds(300,0,100,50);
         system.add(button);
 
-        JButton salad = new JButton("Grilled Chicken Sandwich");
-        salad.setBounds(500, 0, 200, 50);
+        JButton salad = new JButton("Salids");
+        salad.setBounds(400, 0, 100, 50);
         system.add(salad);
 
         JButton cookie = new JButton("Cookies");
@@ -79,7 +79,7 @@ public class gui{
         system.add(milkshake);
 
 
-        JButton manager = new JButton("Manger");
+        JButton manager = new JButton("Manager");
         manager.setBounds(0, 410, 100, 50);
         system.add(manager);
 
@@ -100,9 +100,9 @@ public class gui{
 
 
     }
-    public static void main(String[] args){
+    /*public static void main(String[] args){
         //creating the instance of JFrame
         new gui();
         
-    }
+    }*/
 }
