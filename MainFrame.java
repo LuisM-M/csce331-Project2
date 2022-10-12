@@ -21,6 +21,13 @@ public class MainFrame {
         splitPane.setBounds(10, 10, 1080, 720);
         system.getContentPane().add(splitPane);
         
+        JPanel panel_1 = new JPanel();
+        splitPane.setLeftComponent(panel_1);
+
+        JLabel lblNewLabel = new JLabel("Chick-Fil-A Receipt System");
+        panel_1.add(lblNewLabel);
+        system.setVisible(true);
+
         JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
         splitPane.setRightComponent(tabbedPane);
         
@@ -1042,18 +1049,43 @@ public class MainFrame {
         JPanel drink_panel = new JPanel();
         tabbedPane.addTab("Drink", null, drink_panel, null);
         
-        JPanel dessert_panel = new JPanel();
-        tabbedPane.addTab("Desserts", null, dessert_panel, null);
+        JPanel dessert_panel = new JPanel(new GridLayout(5,0,10,10));
+        tabbedPane.addTab("Treats", null, dessert_panel, null);
+
+        JButton dessert = new JButton("Browie");
+        dessert_panel.add(dessert);
+
+        JButton cookie = new JButton("Cookie");
+        dessert_panel.add(cookie);
+
+        JButton icecone = new JButton("Icedream Cone");
+        dessert_panel.add(icecone);
+
+        JButton icecup = new JButton("Icedream Cup");
+        dessert_panel.add(icecup);
+
+        JButton ccmilkshake = new JButton("Cookie and Cream Milkshake");
+        dessert_panel.add(ccmilkshake);
+
+        JButton cmilkshake = new JButton("Chocolate Milkshake");
+        dessert_panel.add(cmilkshake);
+
+        JButton smilkshake = new JButton("Strawberry Milkshake");
+        dessert_panel.add(smilkshake);
+
+        JButton vmilkshake = new JButton("Vanilla Milkshake");
+        dessert_panel.add(vmilkshake);
+
+        JButton frostedcoffee = new JButton("Frosted Coffee");
+        dessert_panel.add(frostedcoffee);
+
+        JButton frostedlemonade = new JButton("Frosted Lemonade");
+        dessert_panel.add(frostedlemonade);
         
         JPanel kid_panel = new JPanel();
         tabbedPane.addTab("Kids", null, kid_panel, null);
         
-        JPanel panel_1 = new JPanel();
-        splitPane.setLeftComponent(panel_1);
         
-        JLabel lblNewLabel = new JLabel("Chick-Fil-A Receipt System");
-        panel_1.add(lblNewLabel);
-        system.setVisible(true);
 
     }
     
