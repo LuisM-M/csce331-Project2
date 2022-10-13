@@ -9,7 +9,7 @@ public class MainFrame {
     public MainFrame(){
         JFrame system = new JFrame();
 
-        system.setSize(1080,720);
+        system.setSize(1200,950);
         system.getContentPane().setLayout(null);
         system.setVisible(true);
         system.setVisible(true);
@@ -71,6 +71,7 @@ public class MainFrame {
         String[] jalapenoChoices = {"None", "One Serving", "Extra"};
         String[] nugCountChoices = {"8 ct", "12 ct"};
         String[] strCountChoices = {"3 ct", "4 ct"};
+        String[] mealChoice = {"No","Yes, medium fries and founain drink","Yes, large fries and fountain drink"};
         
         JLabel breadLabel_3_1 = new JLabel("Bread");
         GridBagConstraints gbc_lbl_3_1_0 = new GridBagConstraints();
@@ -193,6 +194,21 @@ public class MainFrame {
         gbc_box_3_1_7.gridx = 2;
         gbc_box_3_1_7.gridy = 7;
         entree1_panel.add(sauce2ComboBox_3_1, gbc_box_3_1_7);
+
+        JLabel mealLabel_3_1 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_1_8 = new GridBagConstraints();
+        gbc_lbl_3_1_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_1_8.gridx = 0;
+        gbc_lbl_3_1_8.gridy = 8;
+        entree1_panel.add(mealLabel_3_1, gbc_lbl_3_1_8);
+
+        JComboBox mealComboBox_3_1 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_1_8 = new GridBagConstraints();
+        gbc_box_3_1_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_1_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_1_8.gridx = 2;
+        gbc_box_3_1_8.gridy = 8;
+        entree1_panel.add(mealComboBox_3_1, gbc_box_3_1_8);
         
         JButton addButton_3_1 = new JButton("Add Chicken Sandwich!");
         addButton_3_1.addActionListener(new ActionListener() {
@@ -210,9 +226,9 @@ public class MainFrame {
         entree_panel.addTab("Deluxe Sandwich", null, entree2_panel, null);
         GridBagLayout gbl_entree2_panel = new GridBagLayout();
         gbl_entree2_panel.columnWidths = new int[]{0, 0, 0, 0};
-        gbl_entree2_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        gbl_entree2_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         gbl_entree2_panel.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
-        gbl_entree2_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+        gbl_entree2_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree2_panel.setLayout(gbl_entree2_panel);
         
         JLabel breadLabel_3_2 = new JLabel("Bread");
@@ -338,6 +354,21 @@ public class MainFrame {
         gbc_box_3_2_7.gridx = 2;
         gbc_box_3_2_7.gridy = 7;
         entree2_panel.add(sauce2ComboBox_3_2, gbc_box_3_2_7);
+
+        JLabel mealLabel_3_2 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_2_8 = new GridBagConstraints();
+        gbc_lbl_3_2_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_2_8.gridx = 0;
+        gbc_lbl_3_2_8.gridy = 8;
+        entree2_panel.add(mealLabel_3_2, gbc_lbl_3_2_8);
+
+        JComboBox mealComboBox_3_2 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_2_8 = new GridBagConstraints();
+        gbc_box_3_2_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_2_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_2_8.gridx = 2;
+        gbc_box_3_2_8.gridy = 8;
+        entree2_panel.add(mealComboBox_3_2, gbc_box_3_2_8);
         
         JButton addButton_3_2 = new JButton("Add Deluxe Sandwich!");
         addButton_3_2.addActionListener(new ActionListener() {
@@ -347,16 +378,16 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_2 = new GridBagConstraints();
         gbc_btn_3_2.gridx = 2;
-        gbc_btn_3_2.gridy = 8;
+        gbc_btn_3_2.gridy = 9;
         entree2_panel.add(addButton_3_2, gbc_btn_3_2);
         
         JPanel entree3_panel = new JPanel();
         entree_panel.addTab("Spicy Chicken Sandwich", null, entree3_panel, null);
         GridBagLayout gbl_entree3_panel = new GridBagLayout();
         gbl_entree3_panel.columnWidths = new int[] {0, 0, 0, 0};
-        gbl_entree3_panel.rowHeights = new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        gbl_entree3_panel.rowHeights = new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0};
         gbl_entree3_panel.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
-        gbl_entree3_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+        gbl_entree3_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,0.0, Double.MIN_VALUE};
         entree3_panel.setLayout(gbl_entree3_panel);
 
         JLabel breadLabel_3_3 = new JLabel("Bread");
@@ -480,6 +511,21 @@ public class MainFrame {
         gbc_box_3_3_7.gridy = 7;
         entree3_panel.add(sauce2ComboBox_3_3, gbc_box_3_3_7);
 
+        JLabel mealLabel_3_3 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_3_8 = new GridBagConstraints();
+        gbc_lbl_3_3_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_3_8.gridx = 0;
+        gbc_lbl_3_3_8.gridy = 8;
+        entree3_panel.add(mealLabel_3_3, gbc_lbl_3_3_8);
+
+        JComboBox mealComboBox_3_3 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_3_8 = new GridBagConstraints();
+        gbc_box_3_3_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_3_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_3_8.gridx = 2;
+        gbc_box_3_3_8.gridy = 8;
+        entree3_panel.add(mealComboBox_3_3, gbc_box_3_3_8);
+
         JButton addButton_3_3 = new JButton("Add Spicy Chicken Sandwich!");
         addButton_3_3.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -488,16 +534,16 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_3 = new GridBagConstraints();
         gbc_btn_3_3.gridx = 2;
-        gbc_btn_3_3.gridy = 8;
+        gbc_btn_3_3.gridy = 9;
         entree3_panel.add(addButton_3_3, gbc_btn_3_3);
         
         JPanel entree4_panel = new JPanel();
         entree_panel.addTab("Spicy Deluxe Sandwich", null, entree4_panel, null);
         GridBagLayout gbl_entree4_panel = new GridBagLayout();
         gbl_entree4_panel.columnWidths = new int[]{0, 0, 0, 0};
-        gbl_entree4_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        gbl_entree4_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         gbl_entree4_panel.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
-        gbl_entree4_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+        gbl_entree4_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree4_panel.setLayout(gbl_entree4_panel);
 
         JLabel breadLabel_3_4 = new JLabel("Bread");
@@ -624,6 +670,21 @@ public class MainFrame {
         gbc_box_3_4_7.gridy = 7;
         entree4_panel.add(sauce2ComboBox_3_4, gbc_box_3_4_7);
 
+        JLabel mealLabel_3_4 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_4_8 = new GridBagConstraints();
+        gbc_lbl_3_4_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_4_8.gridx = 0;
+        gbc_lbl_3_4_8.gridy = 8;
+        entree4_panel.add(mealLabel_3_4, gbc_lbl_3_4_8);
+
+        JComboBox mealComboBox_3_4 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_4_8 = new GridBagConstraints();
+        gbc_box_3_4_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_4_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_4_8.gridx = 2;
+        gbc_box_3_4_8.gridy = 8;
+        entree4_panel.add(mealComboBox_3_4, gbc_box_3_4_8);
+
         JButton addButton_3_4 = new JButton("Add Spicy Deluxe Sandwich!");
         addButton_3_4.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -632,15 +693,15 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_4 = new GridBagConstraints();
         gbc_btn_3_4.gridx = 2;
-        gbc_btn_3_4.gridy = 8;
+        gbc_btn_3_4.gridy = 9;
         entree4_panel.add(addButton_3_4, gbc_btn_3_4);
         JPanel entree5_panel = new JPanel();
         entree_panel.addTab("Grilled Chicken Sandwich", null, entree5_panel, null);
         GridBagLayout gbl_entree5_panel = new GridBagLayout();
         gbl_entree5_panel.columnWidths = new int[]{0, 0, 0, 0};
-        gbl_entree5_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        gbl_entree5_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0};
         gbl_entree5_panel.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
-        gbl_entree5_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+        gbl_entree5_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree5_panel.setLayout(gbl_entree5_panel);
 
         JLabel breadLabel_3_5 = new JLabel("Bread");
@@ -767,6 +828,21 @@ public class MainFrame {
         gbc_box_3_5_7.gridy = 7;
         entree5_panel.add(sauce2ComboBox_3_5, gbc_box_3_5_7);
 
+        JLabel mealLabel_3_5 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_5_8 = new GridBagConstraints();
+        gbc_lbl_3_5_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_5_8.gridx = 0;
+        gbc_lbl_3_5_8.gridy = 8;
+        entree5_panel.add(mealLabel_3_5, gbc_lbl_3_5_8);
+
+        JComboBox mealComboBox_3_5 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_5_8 = new GridBagConstraints();
+        gbc_box_3_5_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_5_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_5_8.gridx = 2;
+        gbc_box_3_5_8.gridy = 8;
+        entree5_panel.add(mealComboBox_3_5, gbc_box_3_5_8);
+
         JButton addButton_3_5 = new JButton("Add Grilled Sandwich!");
         addButton_3_5.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -775,15 +851,15 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_5 = new GridBagConstraints();
         gbc_btn_3_5.gridx = 2;
-        gbc_btn_3_5.gridy = 8;
+        gbc_btn_3_5.gridy = 9;
         entree5_panel.add(addButton_3_5, gbc_btn_3_5);
         JPanel entree6_panel = new JPanel();
         entree_panel.addTab("Grilled Chicken Club Sandwich", null, entree6_panel, null);
         GridBagLayout gbl_entree6_panel = new GridBagLayout();
         gbl_entree6_panel.columnWidths = new int[]{0, 0, 0, 0};
-        gbl_entree6_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        gbl_entree6_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         gbl_entree6_panel.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
-        gbl_entree6_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+        gbl_entree6_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree6_panel.setLayout(gbl_entree6_panel);
 
         JLabel breadLabel_3_6 = new JLabel("Bread");
@@ -912,6 +988,21 @@ public class MainFrame {
         gbc_box_3_6_7.gridy = 7;
         entree6_panel.add(sauce2ComboBox_3_6, gbc_box_3_6_7);
 
+        JLabel mealLabel_3_6 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_6_8 = new GridBagConstraints();
+        gbc_lbl_3_6_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_6_8.gridx = 0;
+        gbc_lbl_3_6_8.gridy = 8;
+        entree6_panel.add(mealLabel_3_6, gbc_lbl_3_6_8);
+
+        JComboBox mealComboBox_3_6 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_6_8 = new GridBagConstraints();
+        gbc_box_3_6_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_6_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_6_8.gridx = 2;
+        gbc_box_3_6_8.gridy = 8;
+        entree6_panel.add(mealComboBox_3_6, gbc_box_3_6_8);
+
         JButton addButton_3_6 = new JButton("Add Grilled Chicken Club Sandwich!");
         addButton_3_6.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -920,16 +1011,16 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_6 = new GridBagConstraints();
         gbc_btn_3_6.gridx = 2;
-        gbc_btn_3_6.gridy = 8;
+        gbc_btn_3_6.gridy = 9;
         entree6_panel.add(addButton_3_6, gbc_btn_3_6);
         
         JPanel entree7_panel = new JPanel();
         entree_panel.addTab("Grilled Spicy Deluxe", null, entree7_panel, null);
         GridBagLayout gbl_entree7_panel = new GridBagLayout();
         gbl_entree7_panel.columnWidths = new int[]{0, 0, 0, 0};
-        gbl_entree7_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        gbl_entree7_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         gbl_entree7_panel.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
-        gbl_entree7_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+        gbl_entree7_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree7_panel.setLayout(gbl_entree7_panel);
 
         JLabel breadLabel_3_7 = new JLabel("Bread");
@@ -1056,6 +1147,21 @@ public class MainFrame {
         gbc_box_3_7_7.gridy = 7;
         entree7_panel.add(sauce2ComboBox_3_7, gbc_box_3_7_7);
 
+        JLabel mealLabel_3_7 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_7_8 = new GridBagConstraints();
+        gbc_lbl_3_7_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_7_8.gridx = 0;
+        gbc_lbl_3_7_8.gridy = 8;
+        entree7_panel.add(mealLabel_3_7, gbc_lbl_3_7_8);
+
+        JComboBox mealComboBox_3_7 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_7_8 = new GridBagConstraints();
+        gbc_box_3_7_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_7_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_7_8.gridx = 2;
+        gbc_box_3_7_8.gridy = 8;
+        entree7_panel.add(mealComboBox_3_7, gbc_box_3_7_8);
+
         JButton addButton_3_7 = new JButton("Add Grilled Spicy Deluxe!");
         addButton_3_7.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -1064,16 +1170,16 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_7 = new GridBagConstraints();
         gbc_btn_3_7.gridx = 2;
-        gbc_btn_3_7.gridy = 8;
+        gbc_btn_3_7.gridy = 9;
         entree7_panel.add(addButton_3_7, gbc_btn_3_7);
         
         JPanel entree8_panel = new JPanel();
         entree_panel.addTab("Nuggets", null, entree8_panel, null);
         GridBagLayout gbl_entree8_panel = new GridBagLayout();
         gbl_entree8_panel.columnWidths = new int[]{0, 0, 0, 0};
-        gbl_entree8_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        gbl_entree8_panel.rowHeights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         gbl_entree8_panel.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
-        gbl_entree8_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+        gbl_entree8_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         entree8_panel.setLayout(gbl_entree8_panel);
         
         JLabel nugCountLabel_3_8 = new JLabel("Nugget Count");
@@ -1120,6 +1226,21 @@ public class MainFrame {
         gbc_box_3_8_2.gridx = 2;
         gbc_box_3_8_2.gridy = 2;
         entree8_panel.add(sauce2ComboBox_3_8, gbc_box_3_8_2);
+
+        JLabel mealLabel_3_8 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_8_8 = new GridBagConstraints();
+        gbc_lbl_3_8_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_8_8.gridx = 0;
+        gbc_lbl_3_8_8.gridy = 3;
+        entree8_panel.add(mealLabel_3_8, gbc_lbl_3_8_8);
+
+        JComboBox mealComboBox_3_8 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_8_8 = new GridBagConstraints();
+        gbc_box_3_8_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_8_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_8_8.gridx = 2;
+        gbc_box_3_8_8.gridy = 3;
+        entree8_panel.add(mealComboBox_3_8, gbc_box_3_8_8);
         
         JButton addButton_3_8 = new JButton("Add Nuggets!");
         addButton_3_8.addActionListener(new ActionListener() {
@@ -1129,7 +1250,7 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_8 = new GridBagConstraints();
         gbc_btn_3_8.gridx = 2;
-        gbc_btn_3_8.gridy = 3;
+        gbc_btn_3_8.gridy = 4;
         entree8_panel.add(addButton_3_8, gbc_btn_3_8);
         
         JPanel entree9_panel = new JPanel();
@@ -1185,6 +1306,21 @@ public class MainFrame {
         gbc_box_3_9_2.gridx = 2;
         gbc_box_3_9_2.gridy = 2;
         entree9_panel.add(sauce2ComboBox_3_9, gbc_box_3_9_2);
+
+        JLabel mealLabel_3_9 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_9_8 = new GridBagConstraints();
+        gbc_lbl_3_9_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_9_8.gridx = 0;
+        gbc_lbl_3_9_8.gridy = 3;
+        entree9_panel.add(mealLabel_3_9, gbc_lbl_3_9_8);
+
+        JComboBox mealComboBox_3_9 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_9_8 = new GridBagConstraints();
+        gbc_box_3_9_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_9_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_9_8.gridx = 2;
+        gbc_box_3_9_8.gridy = 3;
+        entree9_panel.add(mealComboBox_3_9, gbc_box_3_9_8);
         
         JButton addButton_3_9 = new JButton("Add Grilled Nuggets!");
         addButton_3_9.addActionListener(new ActionListener() {
@@ -1194,7 +1330,7 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_9 = new GridBagConstraints();
         gbc_btn_3_9.gridx = 2;
-        gbc_btn_3_9.gridy = 3;
+        gbc_btn_3_9.gridy = 4;
         entree9_panel.add(addButton_3_9, gbc_btn_3_9);
         
         JPanel entree10_panel = new JPanel();
@@ -1250,6 +1386,21 @@ public class MainFrame {
         gbc_box_3_10_2.gridx = 2;
         gbc_box_3_10_2.gridy = 2;
         entree10_panel.add(sauce2ComboBox_3_10, gbc_box_3_10_2);
+
+        JLabel mealLabel_3_10 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_10_8 = new GridBagConstraints();
+        gbc_lbl_3_10_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_10_8.gridx = 0;
+        gbc_lbl_3_10_8.gridy = 3;
+        entree10_panel.add(mealLabel_3_10, gbc_lbl_3_10_8);
+
+        JComboBox mealComboBox_3_10 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_10_8 = new GridBagConstraints();
+        gbc_box_3_10_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_10_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_10_8.gridx = 2;
+        gbc_box_3_10_8.gridy = 3;
+        entree10_panel.add(mealComboBox_3_10, gbc_box_3_10_8);
         
         JButton addButton_3_10 = new JButton("Add Chick-n Strips!");
         addButton_3_10.addActionListener(new ActionListener() {
@@ -1259,7 +1410,7 @@ public class MainFrame {
         });
         GridBagConstraints gbc_btn_3_10 = new GridBagConstraints();
         gbc_btn_3_10.gridx = 2;
-        gbc_btn_3_10.gridy = 3;
+        gbc_btn_3_10.gridy = 4;
         entree10_panel.add(addButton_3_10, gbc_btn_3_10);
         
         JPanel entree11_panel = new JPanel();
@@ -1300,6 +1451,21 @@ public class MainFrame {
         gbc_box_3_11_1.gridx = 2;
         gbc_box_3_11_1.gridy = 1;
         entree11_panel.add(dressing2ComboBox_3_11, gbc_box_3_11_1);
+
+        JLabel mealLabel_3_11 = new JLabel("Meal Option");
+        GridBagConstraints gbc_lbl_3_11_8 = new GridBagConstraints();
+        gbc_lbl_3_11_8.insets = new Insets(0, 0, 5, 5);
+        gbc_lbl_3_11_8.gridx = 0;
+        gbc_lbl_3_11_8.gridy = 2;
+        entree11_panel.add(mealLabel_3_11, gbc_lbl_3_11_8);
+
+        JComboBox mealComboBox_3_11 = new JComboBox(mealChoice);
+        GridBagConstraints gbc_box_3_11_8 = new GridBagConstraints();
+        gbc_box_3_11_8.insets = new Insets(0,0,5,0);
+        gbc_box_3_11_8.fill = GridBagConstraints.HORIZONTAL;
+        gbc_box_3_11_8.gridx = 2;
+        gbc_box_3_11_8.gridy = 2;
+        entree11_panel.add(mealComboBox_3_11, gbc_box_3_11_8);
         
         JButton addButton_3_11 = new JButton("Add Cool Wrap!");
         addButton_3_11.addActionListener(new ActionListener() {
@@ -1417,7 +1583,11 @@ public class MainFrame {
         JButton roastedbbq = new JButton("Honey Roasted BBQ Sauce");
         sauce_panel.add(roastedbbq);
         
-        
+        JButton manager = new JButton("Manger");
+        manager.setBounds(0, 950, 100, 50);
+        system.add(manager);
+
+        system.setVisible(true);
 
     }
     
